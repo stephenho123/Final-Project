@@ -54,3 +54,5 @@ class Board:
             if self.isSpaceFree(i):
                 return False
         return True
+    def reset(self):
+        self.theBoard = [' '] * 10
